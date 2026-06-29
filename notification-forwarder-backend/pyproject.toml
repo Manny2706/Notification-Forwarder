@@ -1,0 +1,16 @@
+[project]
+name = "notification-forwarder-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "email-validator>=2.3.0",
+    "fastapi>=0.138.1",
+    "httpx>=0.28.1",
+    "pydantic-settings>=2.14.2",
+    "python-dotenv>=1.2.2",
+    "resend>=2.32.2",
+    "sib-api-v3-sdk>=7.6.0",
+    "uvicorn>=0.49.0",
+]
