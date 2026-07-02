@@ -122,7 +122,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
             child: notifications.isEmpty
                 ? const Center(
                     child: Text(
-                      "Waiting for payment notifications...",
+                      "Waiting for notifications...",
                       style: TextStyle(fontSize: 18),
                     ),
                   )
